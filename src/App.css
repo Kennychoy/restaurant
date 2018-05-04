@@ -1,0 +1,3762 @@
+@import url("https://fonts.googleapis.com/css?family=Economica");
+/* line 3, C:/Users/User/restaurant/src/scss/app.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Economica";
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 13, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top {
+    background: #f1f0f1;
+    padding-top: 29px;
+    border-bottom: none;
+  }
+  /* line 19, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-header .navbar-brand {
+    font-size: 6rem;
+    background: #535151;
+    color: #fff;
+  }
+  /* line 23, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-header .navbar-brand span {
+    font-size: 24px;
+  }
+  /* line 30, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li a {
+    font-size: 20px;
+    color: #535151;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: color .2s;
+  }
+  /* line 36, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li a:hover {
+    color: #aaccaa;
+    text-decoration: none;
+  }
+  /* line 43, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right .active a {
+    color: #aaccaa;
+    background: transparent;
+  }
+  /* line 52, C:/Users/User/restaurant/src/scss/app.scss */
+  #home {
+    position: relative;
+  }
+  /* line 56, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary {
+    margin-top: 150px;
+    color: white;
+  }
+  /* line 61, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  /* line 66, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:first-child .primary-wrapper {
+    background: #aad4b3;
+  }
+  /* line 71, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:nth-child(2) .primary-wrapper {
+    background: #86cdd7;
+  }
+  /* line 76, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:last-child .primary-wrapper {
+    background: #ffe5b9;
+  }
+  /* line 80, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper {
+    position: relative;
+  }
+  /* line 83, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-img img {
+    height: 100%;
+  }
+  /* line 87, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 90, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-icon {
+    position: relative;
+    flex: 1;
+  }
+  /* line 93, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-icon i {
+    font-size: 7rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 103, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-description {
+    font-size: 4rem;
+    flex: 1;
+  }
+  /* line 107, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-more {
+    display: flex;
+    flex: 1;
+  }
+  /* line 110, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-more a {
+    font-size: 2rem;
+    position: relative;
+    color: white;
+    margin: auto;
+    border-bottom: none;
+    text-decoration: none;
+    transition: .5s border-bottom;
+  }
+  /* line 118, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-more a:hover {
+    border-bottom: 2px solid white;
+  }
+  /* line 121, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-more a:before {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: -50%;
+    width: 200%;
+    height: 3px;
+    background: white;
+  }
+  /* line 138, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary {
+    text-align: center;
+    color: #939393;
+  }
+  /* line 143, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 146, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-num {
+    padding: 7%;
+    display: inline-block;
+    border: 1px solid #939393;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  /* line 154, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-description {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 162, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 169, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 181, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container {
+    background: #f1f0f1;
+    color: #969696;
+  }
+  /* line 185, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 {
+    padding: 40px;
+  }
+  /* line 187, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 193, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-text {
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 197, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more {
+    margin-top: 20px;
+  }
+  /* line 199, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 206, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 217, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth {
+    margin-top: 50px;
+  }
+  /* line 220, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .fourth-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 229, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper {
+    position: relative;
+  }
+  /* line 232, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: transparent;
+    transition: .2s all;
+  }
+  /* line 241, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer i {
+    margin: auto;
+    color: #FFF;
+    font-size: 4rem;
+    opacity: 0;
+    transition: .2s opacity;
+  }
+  /* line 248, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer:hover {
+    background: rgba(170, 204, 170, 0.6);
+    cursor: pointer;
+  }
+  /* line 251, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer:hover i {
+    opacity: 1;
+  }
+  /* line 258, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button {
+    float: right;
+  }
+  /* line 260, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button button {
+    margin-top: 30px;
+    color: white;
+    background: black;
+    font-size: 4rem;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    transition: background .2s;
+  }
+  /* line 270, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button button:hover {
+    cursor: pointer;
+    background: #AACCAA;
+  }
+  /* line 281, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  /* line 287, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 293, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper {
+    overflow: hidden;
+  }
+  /* line 295, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-img-wrapper {
+    display: block;
+    float: left;
+    width: 40%;
+  }
+  /* line 301, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation {
+    display: inline-block;
+    width: 58%;
+    margin-left: 5px;
+    height: 101px;
+    overflow: hidden;
+  }
+  /* line 307, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation .fifth-quotation-name {
+    font-weight: bold;
+    color: #535151;
+    margin-bottom: 5px;
+  }
+  /* line 312, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation .fifth-quotation-text {
+    font-size: 1.8rem;
+  }
+  /* line 317, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials {
+    margin-top: 10px;
+  }
+  /* line 319, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a {
+    float: right;
+    color: #535151;
+    font-size: 2rem;
+    transition: .2s color;
+  }
+  /* line 324, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a:hover {
+    cursor: pointer;
+    color: #AACCAA;
+  }
+  /* line 328, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a span {
+    font-weight: 800;
+    font-size: 2.3rem;
+  }
+  /* line 336, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 341, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  /* line 344, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events .fifth-date {
+    display: block;
+    background-color: #000;
+    text-align: center;
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+    color: #fff;
+    position: relative;
+    top: 3px;
+    padding: 15px 0 19px;
+    font: bold 24px/30px 'Economica', sans-serif;
+  }
+  /* line 359, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events .fifth-details {
+    overflow: hidden;
+  }
+  /* line 366, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 371, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper {
+    text-align: center;
+  }
+  /* line 373, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper .timing-details {
+    background: #535151;
+    color: #FFF;
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+  /* line 378, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper .timing-details span {
+    font-size: 3rem;
+  }
+  /* line 391, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper {
+    margin-top: 100px;
+  }
+  /* line 394, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper {
+    margin-bottom: 20px;
+  }
+  /* line 396, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper {
+    background: #f1f0f1;
+  }
+  /* line 398, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img {
+    position: relative;
+  }
+  /* line 400, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    transition: all .2s;
+  }
+  /* line 408, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: #FFF;
+    opacity: 0;
+  }
+  /* line 417, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer:hover {
+    background: rgba(170, 204, 170, 0.5);
+    cursor: pointer;
+  }
+  /* line 420, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer:hover i {
+    opacity: 1;
+  }
+  /* line 427, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description {
+    padding: 3%;
+  }
+  /* line 429, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description .dish-name {
+    font-size: 3rem;
+    color: #535151;
+  }
+  /* line 433, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description .dish-text {
+    letter-spacing: .1rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  /* line 438, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description button {
+    background: none;
+    padding: 3.5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 445, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 457, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation {
+    color: #535151;
+    margin-top: 100px;
+  }
+  /* line 462, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text {
+    margin-bottom: 80px;
+  }
+  /* line 464, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .reservation-title {
+    font-size: 4rem;
+  }
+  /* line 467, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text img {
+    display: block;
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+  /* line 474, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text p {
+    letter-spacing: .1rem;
+  }
+  /* line 477, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text h3 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  /* line 482, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .read-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 489, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .read-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 498, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form .reservation-title {
+    font-size: 4rem;
+  }
+  /* line 501, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form .reservation-subtitle {
+    font-size: 2rem;
+  }
+  /* line 504, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form {
+    margin-top: 40px;
+  }
+  /* line 508, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group input:focus {
+    border: 1px solid #aad4b3;
+    box-shadow: none;
+  }
+  /* line 516, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group .form-checkinout {
+    margin-right: 20px;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 521, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group .datepicker {
+    display: inline-block;
+  }
+  /* line 526, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter {
+    display: inline-block;
+    width: 40%;
+  }
+  /* line 529, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter label {
+    padding-right: 10px;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 534, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter select {
+    width: 80px;
+  }
+  /* line 539, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea {
+    width: 100%;
+  }
+  /* line 541, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea::placeholder {
+    padding-left: 10px;
+  }
+  /* line 544, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea:focus {
+    outline: 1px solid #aad4b3;
+  }
+  /* line 549, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button {
+    float: right;
+    width: 80px;
+    font-size: 1.8rem;
+    transition: all .2s;
+  }
+  /* line 554, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button:first-of-type {
+    margin-left: 20px;
+  }
+  /* line 557, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button:hover {
+    background: #aad4b3;
+  }
+  /* line 567, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog {
+    color: #939393;
+    margin-top: 100px;
+  }
+  /* line 574, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 579, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 585, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-text p {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 590, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 593, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row {
+    display: flex;
+    border-top: 1px solid #939393;
+  }
+  /* line 596, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row:last-of-type {
+    border-bottom: 1px solid #939393;
+  }
+  /* line 599, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span {
+    flex: 1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  /* line 603, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span i {
+    font-size: 2rem;
+    padding-right: 3%;
+  }
+  /* line 607, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span a {
+    font-size: 2rem;
+    color: #939393;
+    transition: .2s color;
+  }
+  /* line 611, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span a:hover {
+    color: #aaccaa;
+    text-decoration: none;
+  }
+  /* line 618, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row .views span {
+    padding-right: 2%;
+  }
+  /* line 625, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more {
+    margin-bottom: 50px;
+  }
+  /* line 627, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 634, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 644, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories {
+    margin-bottom: 50px;
+  }
+  /* line 646, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories .sidebar-title {
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 651, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul {
+    margin-left: 20px;
+  }
+  /* line 653, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li {
+    margin-bottom: 5px;
+  }
+  /* line 655, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li a {
+    font-size: 2rem;
+    color: #939393;
+    transition: .2s color;
+  }
+  /* line 659, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li a:hover {
+    text-decoration: none;
+    color: #aad4b3;
+  }
+  /* line 668, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .sidebar-title {
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 673, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  /* line 676, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-img {
+    flex: 1;
+    padding-right: 5px;
+  }
+  /* line 679, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 684, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right {
+    flex: 1;
+  }
+  /* line 686, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-date {
+    font-size: 1.8rem;
+  }
+  /* line 690, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-title a {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 700;
+    transition: .2s color;
+  }
+  /* line 695, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-title a:hover {
+    text-decoration: none;
+    color: #aad4b3;
+  }
+  /* line 703, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text span a {
+    color: black;
+    transition: .2s color;
+  }
+  /* line 706, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text span a:hover {
+    text-decoration: none;
+    color: #939393;
+  }
+  /* line 722, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper {
+    margin-top: 100px;
+  }
+  /* line 726, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-map iframe {
+    width: 100%;
+    height: 450px;
+  }
+  /* line 732, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details {
+    margin-bottom: 20px;
+  }
+  /* line 734, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details .contact-title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  /* line 738, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details .contact-description {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 745, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text p {
+    letter-spacing: .1rem;
+  }
+  /* line 747, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text p .contact-bold {
+    font-weight: 700;
+  }
+  /* line 755, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form {
+    background: #f1f0f1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+  }
+  /* line 760, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form .form-title {
+    font-size: 3rem;
+    color: #333;
+    font-weight: 700;
+  }
+  /* line 765, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form {
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+  /* line 768, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input {
+    width: 20%;
+    margin-right: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+  }
+  /* line 774, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input::placeholder {
+    padding-left: 10px;
+  }
+  /* line 777, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input:focus {
+    outline: 2px solid #aaccaa;
+  }
+  /* line 779, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input:focus::placeholder {
+    color: #e6e6e6;
+  }
+  /* line 784, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea {
+    margin-top: 30px;
+  }
+  /* line 786, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea::placeholder {
+    font-size: 2.5rem;
+  }
+  /* line 789, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea:focus {
+    box-shadow: 0 0 8px #aaccaa;
+    border-color: #aaccaa;
+    outline: #aaccaa;
+  }
+  /* line 793, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea:focus::placeholder {
+    color: #e6e6e6;
+  }
+  /* line 798, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns {
+    float: right;
+    margin-top: 20px;
+  }
+  /* line 801, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 808, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button:last-of-type {
+    margin-left: 20px;
+  }
+  /* line 811, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 821, C:/Users/User/restaurant/src/scss/app.scss */
+  footer {
+    background: #969696;
+    color: #e2e2e2;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  /* line 829, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 832, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name {
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+  }
+  /* line 835, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name a {
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    color: #e2e2e2;
+    transition: .2s color;
+  }
+  /* line 840, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name a:hover {
+    cursor: pointer;
+    color: #AACCAA;
+    text-decoration: none;
+  }
+  /* line 847, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons {
+    display: flex;
+  }
+  /* line 849, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a {
+    flex: 1;
+  }
+  /* line 851, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a i {
+    color: white;
+    background: #ddd;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 8px;
+    transition: .2s background;
+  }
+  /* line 858, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a i:hover {
+    background: #535151;
+  }
+  /* line 867, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top {
+    position: fixed;
+    right: 5%;
+    top: 90%;
+    opacity: 0;
+  }
+  /* line 872, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top span {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 700;
+    border: 2px solid #535151;
+    color: #535151;
+    border-radius: 50%;
+    background: #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: all .3s;
+  }
+  /* line 887, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top span:hover {
+    cursor: pointer;
+    color: #aaccaa;
+    border: 2px solid #aaccaa;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 899, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top {
+    background: #f1f0f1;
+    padding-top: 28px;
+    border-bottom: none;
+  }
+  /* line 905, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-header .navbar-brand {
+    font-size: 6rem;
+    background: #535151;
+    color: #fff;
+  }
+  /* line 909, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-header .navbar-brand span {
+    font-size: 24px;
+  }
+  /* line 916, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li a {
+    font-size: 20px;
+    color: #535151;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: color .2s;
+  }
+  /* line 922, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li a:hover {
+    color: #aaccaa;
+    text-decoration: none;
+  }
+  /* line 929, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right .active a {
+    color: #aaccaa;
+    background: transparent;
+  }
+  /* line 940, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary {
+    margin-top: 150px;
+    color: white;
+  }
+  /* line 945, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  /* line 950, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:first-child .primary-wrapper {
+    background: #aad4b3;
+  }
+  /* line 955, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:nth-child(2) .primary-wrapper {
+    background: #86cdd7;
+  }
+  /* line 960, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:last-child .primary-wrapper {
+    background: #ffe5b9;
+  }
+  /* line 964, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper {
+    position: relative;
+  }
+  /* line 967, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-img img {
+    height: 100%;
+  }
+  /* line 971, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 974, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-icon {
+    position: relative;
+    flex: 1;
+  }
+  /* line 977, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-icon i {
+    font-size: 7rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 987, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-description {
+    font-size: 4rem;
+    flex: 1;
+  }
+  /* line 991, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-more {
+    display: flex;
+    flex: 1;
+  }
+  /* line 994, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-more a {
+    font-size: 2rem;
+    position: relative;
+    color: white;
+    margin: auto;
+    border-bottom: none;
+    text-decoration: none;
+    transition: .5s border-bottom;
+  }
+  /* line 1002, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-more a:hover {
+    border-bottom: 2px solid white;
+  }
+  /* line 1005, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info-more a:before {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: -50%;
+    width: 200%;
+    height: 3px;
+    background: white;
+  }
+  /* line 1022, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary {
+    text-align: center;
+    color: #939393;
+  }
+  /* line 1027, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 1030, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-num {
+    padding: 7%;
+    display: inline-block;
+    border: 1px solid #939393;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  /* line 1038, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-description {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 1046, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 1053, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 1065, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container {
+    background: #f1f0f1;
+    color: #969696;
+  }
+  /* line 1069, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 {
+    padding: 40px;
+  }
+  /* line 1071, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 1077, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-text {
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 1081, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more {
+    margin-top: 20px;
+  }
+  /* line 1083, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 1090, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 1101, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth {
+    margin-top: 50px;
+  }
+  /* line 1104, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .fourth-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 1113, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper {
+    position: relative;
+  }
+  /* line 1116, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: transparent;
+    transition: .2s all;
+  }
+  /* line 1125, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer i {
+    margin: auto;
+    color: #FFF;
+    font-size: 4rem;
+    opacity: 0;
+    transition: .2s opacity;
+  }
+  /* line 1132, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer:hover {
+    background: rgba(170, 204, 170, 0.6);
+    cursor: pointer;
+  }
+  /* line 1135, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer:hover i {
+    opacity: 1;
+  }
+  /* line 1142, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button {
+    float: right;
+  }
+  /* line 1144, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button button {
+    margin-top: 30px;
+    color: white;
+    background: black;
+    font-size: 4rem;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    transition: background .2s;
+  }
+  /* line 1154, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button button:hover {
+    cursor: pointer;
+    background: #AACCAA;
+  }
+  /* line 1165, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth {
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  /* line 1171, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 1177, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper {
+    overflow: hidden;
+  }
+  /* line 1179, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-img-wrapper {
+    display: block;
+    float: left;
+    width: 40%;
+  }
+  /* line 1185, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation {
+    display: inline-block;
+    width: 58%;
+    margin-left: 5px;
+    height: 101px;
+    overflow: hidden;
+  }
+  /* line 1191, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation .fifth-quotation-name {
+    font-weight: bold;
+    color: #535151;
+    margin-bottom: 5px;
+  }
+  /* line 1196, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation .fifth-quotation-text {
+    font-size: 1.8rem;
+  }
+  /* line 1201, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials {
+    margin-top: 10px;
+  }
+  /* line 1203, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a {
+    float: right;
+    color: #535151;
+    font-size: 2rem;
+    transition: .2s color;
+  }
+  /* line 1208, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a:hover {
+    cursor: pointer;
+    color: #AACCAA;
+  }
+  /* line 1212, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a span {
+    font-weight: 800;
+    font-size: 2.3rem;
+  }
+  /* line 1220, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 1225, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  /* line 1228, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events .fifth-date {
+    display: block;
+    background-color: #000;
+    text-align: center;
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+    color: #fff;
+    position: relative;
+    top: 3px;
+    padding: 15px 0 19px;
+    font: bold 24px/30px 'Economica', sans-serif;
+  }
+  /* line 1243, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events .fifth-details {
+    overflow: hidden;
+  }
+  /* line 1250, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 1255, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper {
+    text-align: center;
+  }
+  /* line 1257, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper .timing-details {
+    background: #535151;
+    color: #FFF;
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+  /* line 1262, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper .timing-details span {
+    font-size: 3rem;
+  }
+  /* line 1275, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper {
+    margin-top: 100px;
+  }
+  /* line 1278, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper {
+    margin-bottom: 20px;
+  }
+  /* line 1280, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper {
+    background: #f1f0f1;
+  }
+  /* line 1282, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img {
+    position: relative;
+  }
+  /* line 1284, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    transition: all .2s;
+  }
+  /* line 1292, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: #FFF;
+    opacity: 0;
+  }
+  /* line 1301, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer:hover {
+    background: rgba(170, 204, 170, 0.5);
+    cursor: pointer;
+  }
+  /* line 1304, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer:hover i {
+    opacity: 1;
+  }
+  /* line 1311, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description {
+    padding: 3%;
+  }
+  /* line 1313, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description .dish-name {
+    font-size: 3rem;
+    color: #535151;
+  }
+  /* line 1317, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description .dish-text {
+    letter-spacing: .1rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  /* line 1322, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description button {
+    background: none;
+    padding: 3.5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 1329, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 1341, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation {
+    color: #535151;
+    margin-top: 100px;
+  }
+  /* line 1347, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .reservation-title {
+    font-size: 4rem;
+  }
+  /* line 1350, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text img {
+    display: block;
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+  /* line 1357, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text p {
+    letter-spacing: .1rem;
+  }
+  /* line 1360, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text h3 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  /* line 1365, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .read-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 1372, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .read-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 1381, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form .reservation-title {
+    font-size: 4rem;
+  }
+  /* line 1384, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form .reservation-subtitle {
+    font-size: 2rem;
+  }
+  /* line 1387, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form {
+    margin-top: 40px;
+  }
+  /* line 1391, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group input:focus {
+    border: 1px solid #aad4b3;
+    box-shadow: none;
+  }
+  /* line 1399, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group .form-checkinout {
+    margin-right: 20px;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 1404, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group .datepicker {
+    display: inline-block;
+  }
+  /* line 1409, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter {
+    display: inline-block;
+    width: 48%;
+  }
+  /* line 1412, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter label {
+    padding-right: 5px;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 1417, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter select {
+    width: 80px;
+  }
+  /* line 1422, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea {
+    width: 100%;
+  }
+  /* line 1424, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea::placeholder {
+    padding-left: 10px;
+  }
+  /* line 1427, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea:focus {
+    outline: 1px solid #aad4b3;
+  }
+  /* line 1432, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button {
+    float: right;
+    width: 80px;
+    font-size: 1.8rem;
+    transition: all .2s;
+  }
+  /* line 1437, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button:first-of-type {
+    margin-left: 20px;
+  }
+  /* line 1440, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button:hover {
+    background: #aad4b3;
+  }
+  /* line 1450, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog {
+    color: #939393;
+    margin-top: 100px;
+  }
+  /* line 1457, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 1462, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 1468, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-text p {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 1473, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 1476, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row {
+    display: flex;
+    border-top: 1px solid #939393;
+  }
+  /* line 1479, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row:last-of-type {
+    border-bottom: 1px solid #939393;
+  }
+  /* line 1482, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span {
+    flex: 1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  /* line 1486, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span i {
+    font-size: 2rem;
+    padding-right: 3%;
+  }
+  /* line 1490, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span a {
+    font-size: 2rem;
+    color: #939393;
+    transition: .2s color;
+  }
+  /* line 1494, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span a:hover {
+    color: #aaccaa;
+    text-decoration: none;
+  }
+  /* line 1501, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row .views span {
+    padding-right: 2%;
+  }
+  /* line 1508, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more {
+    margin-bottom: 50px;
+  }
+  /* line 1510, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 1517, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 1527, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories {
+    margin-bottom: 50px;
+  }
+  /* line 1529, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories .sidebar-title {
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 1534, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul {
+    margin-left: 20px;
+  }
+  /* line 1536, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li {
+    margin-bottom: 5px;
+  }
+  /* line 1538, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li a {
+    font-size: 2rem;
+    color: #939393;
+    transition: .2s color;
+  }
+  /* line 1542, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li a:hover {
+    text-decoration: none;
+    color: #aad4b3;
+  }
+  /* line 1551, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .sidebar-title {
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 1556, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  /* line 1559, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-img {
+    flex: 1;
+    padding-right: 5px;
+  }
+  /* line 1562, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 1567, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right {
+    flex: 1;
+  }
+  /* line 1569, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-date {
+    font-size: 1.8rem;
+  }
+  /* line 1573, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-title a {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 700;
+    transition: .2s color;
+  }
+  /* line 1578, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-title a:hover {
+    text-decoration: none;
+    color: #aad4b3;
+  }
+  /* line 1586, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text span a {
+    color: black;
+    transition: .2s color;
+  }
+  /* line 1589, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text span a:hover {
+    text-decoration: none;
+    color: #939393;
+  }
+  /* line 1605, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper {
+    margin-top: 100px;
+  }
+  /* line 1609, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-map iframe {
+    width: 100%;
+    height: 450px;
+  }
+  /* line 1615, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details {
+    margin-bottom: 20px;
+  }
+  /* line 1617, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details .contact-title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  /* line 1621, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details .contact-description {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 1628, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text p {
+    letter-spacing: .1rem;
+  }
+  /* line 1630, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text p .contact-bold {
+    font-weight: 700;
+  }
+  /* line 1638, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form {
+    background: #f1f0f1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+  }
+  /* line 1643, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form .form-title {
+    font-size: 3rem;
+    color: #333;
+    font-weight: 700;
+  }
+  /* line 1648, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form {
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+  /* line 1651, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input {
+    width: 20%;
+    margin-right: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+  }
+  /* line 1657, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input::placeholder {
+    padding-left: 10px;
+  }
+  /* line 1660, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input:focus {
+    outline: 2px solid #aaccaa;
+  }
+  /* line 1662, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input:focus::placeholder {
+    color: #e6e6e6;
+  }
+  /* line 1667, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea {
+    margin-top: 30px;
+  }
+  /* line 1669, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea::placeholder {
+    font-size: 2.5rem;
+  }
+  /* line 1672, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea:focus {
+    box-shadow: 0 0 8px #aaccaa;
+    border-color: #aaccaa;
+    outline: #aaccaa;
+  }
+  /* line 1676, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea:focus::placeholder {
+    color: #e6e6e6;
+  }
+  /* line 1681, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns {
+    float: right;
+    margin-top: 10px;
+  }
+  /* line 1684, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 1691, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button:last-of-type {
+    margin-left: 20px;
+  }
+  /* line 1694, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 1704, C:/Users/User/restaurant/src/scss/app.scss */
+  footer {
+    background: #969696;
+    color: #e2e2e2;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  /* line 1712, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 1715, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name {
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 1718, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name a {
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+    color: #e2e2e2;
+    transition: .2s color;
+  }
+  /* line 1723, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name a:hover {
+    cursor: pointer;
+    color: #AACCAA;
+    text-decoration: none;
+  }
+  /* line 1730, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons {
+    display: flex;
+  }
+  /* line 1732, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a {
+    margin-right: 5px;
+    flex: 1;
+  }
+  /* line 1735, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a i {
+    color: white;
+    background: #ddd;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 8.5%;
+    transition: .2s background;
+  }
+  /* line 1742, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a i:hover {
+    background: #535151;
+  }
+  /* line 1751, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top {
+    position: fixed;
+    right: 5%;
+    top: 90%;
+    opacity: 0;
+  }
+  /* line 1756, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top span {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 700;
+    border: 2px solid #535151;
+    color: #535151;
+    border-radius: 50%;
+    background: #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: all .3s;
+  }
+  /* line 1771, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top span:hover {
+    cursor: pointer;
+    color: #aaccaa;
+    border: 2px solid #aaccaa;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 1787, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top {
+    background: #f1f0f1;
+    padding-top: 28px;
+    border-bottom: none;
+  }
+  /* line 1793, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-header .navbar-brand {
+    font-size: 6rem;
+    background: #535151;
+    color: #fff;
+  }
+  /* line 1797, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-header .navbar-brand span {
+    font-size: 24px;
+  }
+  /* line 1804, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li a {
+    font-size: 20px;
+    color: #535151;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: color .2s;
+  }
+  /* line 1810, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li a:hover {
+    color: #aaccaa;
+    text-decoration: none;
+  }
+  /* line 1817, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right .active a {
+    color: #aaccaa;
+    background: transparent;
+  }
+  /* line 1828, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary {
+    margin-top: 100px;
+    color: white;
+  }
+  /* line 1833, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 1839, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:first-child .primary-wrapper {
+    background: #aad4b3;
+  }
+  /* line 1844, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:nth-child(2) .primary-wrapper {
+    background: #86cdd7;
+  }
+  /* line 1849, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:last-child .primary-wrapper {
+    background: #ffe5b9;
+  }
+  /* line 1853, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1856, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-img {
+    flex: 1;
+  }
+  /* line 1858, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-img img {
+    height: 100%;
+  }
+  /* line 1862, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  /* line 1866, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-icon {
+    flex: 1;
+    margin: auto;
+    position: relative;
+  }
+  /* line 1870, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-icon i {
+    font-size: 6rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 1878, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-description {
+    flex: 1;
+    margin: auto;
+    font-size: 3rem;
+  }
+  /* line 1883, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-more {
+    margin: auto;
+    flex: 1;
+  }
+  /* line 1886, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-more a {
+    font-size: 2rem;
+    position: relative;
+    color: white;
+    border-bottom: none;
+    text-decoration: none;
+    transition: .5s border-bottom;
+  }
+  /* line 1893, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-more a:hover {
+    border-bottom: 2px solid white;
+  }
+  /* line 1896, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-more a:before {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: -50%;
+    width: 200%;
+    height: 3px;
+    background: white;
+  }
+  /* line 1914, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary {
+    text-align: center;
+    color: #939393;
+  }
+  /* line 1919, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 1922, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-num {
+    padding: 7%;
+    display: inline-block;
+    border: 1px solid #939393;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  /* line 1930, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-description {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 1938, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 1945, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 1957, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container {
+    background: #f1f0f1;
+    color: #969696;
+  }
+  /* line 1961, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 {
+    padding: 40px;
+  }
+  /* line 1963, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 1969, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-text {
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 1973, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more {
+    margin-top: 20px;
+  }
+  /* line 1975, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 1982, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 1993, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth {
+    margin-top: 50px;
+  }
+  /* line 1996, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .fourth-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 2003, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 {
+    margin-bottom: 40px;
+  }
+  /* line 2006, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper {
+    position: relative;
+  }
+  /* line 2009, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: transparent;
+    transition: .2s all;
+  }
+  /* line 2018, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer i {
+    margin: auto;
+    color: #FFF;
+    font-size: 4rem;
+    opacity: 0;
+    transition: .2s opacity;
+  }
+  /* line 2025, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer:hover {
+    background: rgba(170, 204, 170, 0.6);
+    cursor: pointer;
+  }
+  /* line 2028, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer:hover i {
+    opacity: 1;
+  }
+  /* line 2035, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button {
+    float: right;
+  }
+  /* line 2037, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button button {
+    margin-top: 10px;
+    color: white;
+    background: black;
+    font-size: 4rem;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    transition: background .2s;
+  }
+  /* line 2047, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button button:hover {
+    cursor: pointer;
+    background: #AACCAA;
+  }
+  /* line 2058, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth {
+    margin-top: 30px;
+    margin-bottom: 180px;
+  }
+  /* line 2063, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 {
+    margin-bottom: 30px;
+  }
+  /* line 2065, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 2071, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper {
+    overflow: hidden;
+  }
+  /* line 2073, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-img-wrapper {
+    display: block;
+    float: left;
+    width: 40%;
+  }
+  /* line 2079, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation {
+    display: inline-block;
+    width: 58%;
+    margin-left: 5px;
+    overflow: hidden;
+  }
+  /* line 2084, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation .fifth-quotation-name {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 5px;
+  }
+  /* line 2090, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation .fifth-quotation-text {
+    font-size: 2rem;
+  }
+  /* line 2095, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials {
+    margin-top: 10px;
+  }
+  /* line 2097, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a {
+    float: right;
+    color: #535151;
+    font-size: 2rem;
+    transition: .2s color;
+  }
+  /* line 2102, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a:hover {
+    cursor: pointer;
+    color: #AACCAA;
+  }
+  /* line 2106, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a span {
+    font-weight: 800;
+    font-size: 2.3rem;
+  }
+  /* line 2114, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 2119, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  /* line 2122, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events .fifth-date {
+    display: block;
+    background-color: #000;
+    text-align: center;
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+    color: #fff;
+    position: relative;
+    top: 3px;
+    padding: 15px 0 19px;
+    font: bold 24px/30px 'Economica', sans-serif;
+  }
+  /* line 2137, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events .fifth-details {
+    overflow: hidden;
+    font-size: 2rem;
+  }
+  /* line 2145, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 2150, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper {
+    text-align: center;
+  }
+  /* line 2152, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper .timing-details {
+    background: #535151;
+    color: #FFF;
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+  /* line 2157, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper .timing-details span {
+    font-size: 3rem;
+  }
+  /* line 2170, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper {
+    margin-top: 100px;
+  }
+  /* line 2173, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper {
+    margin-bottom: 20px;
+  }
+  /* line 2175, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper {
+    background: #f1f0f1;
+  }
+  /* line 2177, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img {
+    position: relative;
+  }
+  /* line 2179, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    transition: all .2s;
+  }
+  /* line 2187, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: #FFF;
+    opacity: 0;
+  }
+  /* line 2196, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer:hover {
+    background: rgba(170, 204, 170, 0.5);
+    cursor: pointer;
+  }
+  /* line 2199, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer:hover i {
+    opacity: 1;
+  }
+  /* line 2206, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description {
+    padding: 3%;
+  }
+  /* line 2208, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description .dish-name {
+    font-size: 3rem;
+    color: #535151;
+  }
+  /* line 2212, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description .dish-text {
+    letter-spacing: .1rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  /* line 2217, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description button {
+    background: none;
+    padding: 3.5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 2224, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 2236, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation {
+    color: #535151;
+    margin-top: 100px;
+  }
+  /* line 2242, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .reservation-title {
+    font-size: 4rem;
+  }
+  /* line 2245, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text img {
+    display: block;
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+  /* line 2252, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text p {
+    letter-spacing: .1rem;
+  }
+  /* line 2255, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text h3 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  /* line 2260, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .read-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 2267, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .read-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 2275, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  /* line 2278, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form .reservation-title {
+    font-size: 4rem;
+  }
+  /* line 2281, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form .reservation-subtitle {
+    font-size: 2rem;
+  }
+  /* line 2284, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form {
+    margin-top: 40px;
+  }
+  /* line 2288, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group input:focus {
+    border: 1px solid #aad4b3;
+    box-shadow: none;
+  }
+  /* line 2296, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group .form-checkinout {
+    margin-right: 20px;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 2301, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group .datepicker {
+    display: inline-block;
+  }
+  /* line 2305, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form :nth-child(3) {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  /* line 2309, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form :nth-child(4) {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  /* line 2314, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter {
+    display: inline-block;
+    width: 30%;
+  }
+  /* line 2317, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter label {
+    padding-right: 15px;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 2322, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter select {
+    width: 120px;
+  }
+  /* line 2327, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea {
+    width: 100%;
+  }
+  /* line 2329, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea::placeholder {
+    padding-left: 10px;
+  }
+  /* line 2332, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea:focus {
+    outline: 1px solid #aad4b3;
+  }
+  /* line 2337, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button {
+    float: right;
+    width: 80px;
+    font-size: 1.8rem;
+    transition: all .2s;
+  }
+  /* line 2342, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button:first-of-type {
+    margin-left: 20px;
+  }
+  /* line 2345, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button:hover {
+    background: #aad4b3;
+  }
+  /* line 2355, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog {
+    color: #939393;
+    margin-top: 100px;
+  }
+  /* line 2362, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 2367, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 2373, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-text p {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 2378, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 2381, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row {
+    display: flex;
+    border-top: 1px solid #939393;
+  }
+  /* line 2384, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row:last-of-type {
+    border-bottom: 1px solid #939393;
+  }
+  /* line 2387, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span {
+    flex: 1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  /* line 2391, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span i {
+    font-size: 2rem;
+    padding-right: 3%;
+  }
+  /* line 2395, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span a {
+    font-size: 2rem;
+    color: #939393;
+    transition: .2s color;
+  }
+  /* line 2399, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span a:hover {
+    color: #aaccaa;
+    text-decoration: none;
+  }
+  /* line 2406, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row .views span {
+    padding-right: 2%;
+  }
+  /* line 2413, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more {
+    margin-bottom: 50px;
+  }
+  /* line 2415, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 2422, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 2432, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  /* line 2435, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories .sidebar-title {
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 2440, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul {
+    margin-left: 20px;
+  }
+  /* line 2442, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li {
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  /* line 2445, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li a {
+    font-size: 2rem;
+    color: #939393;
+    transition: .2s color;
+  }
+  /* line 2449, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li a:hover {
+    text-decoration: none;
+    color: #aad4b3;
+  }
+  /* line 2458, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .sidebar-title {
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 2463, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  /* line 2466, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-img {
+    flex: 1;
+    padding-right: 5px;
+  }
+  /* line 2469, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 2474, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right {
+    flex: 1;
+  }
+  /* line 2476, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-date {
+    font-size: 3rem;
+  }
+  /* line 2480, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-title a {
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+    transition: .2s color;
+  }
+  /* line 2485, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-title a:hover {
+    text-decoration: none;
+    color: #aad4b3;
+  }
+  /* line 2491, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text {
+    font-size: 2rem;
+  }
+  /* line 2494, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text span a {
+    color: black;
+    transition: .2s color;
+  }
+  /* line 2497, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text span a:hover {
+    text-decoration: none;
+    color: #939393;
+  }
+  /* line 2513, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper {
+    margin-top: 100px;
+  }
+  /* line 2517, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-map iframe {
+    width: 100%;
+    height: 450px;
+  }
+  /* line 2523, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details {
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+  }
+  /* line 2528, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details .contact-title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  /* line 2532, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details .contact-description {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 2538, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text {
+    margin-top: 30px;
+  }
+  /* line 2540, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text p {
+    letter-spacing: .1rem;
+  }
+  /* line 2542, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text p .contact-bold {
+    font-weight: 700;
+  }
+  /* line 2550, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form {
+    background: #f1f0f1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+  }
+  /* line 2555, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form .form-title {
+    font-size: 3rem;
+    color: #333;
+    font-weight: 700;
+  }
+  /* line 2560, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form {
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+  /* line 2563, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input {
+    width: 25%;
+    margin-right: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+  }
+  /* line 2569, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input::placeholder {
+    padding-left: 10px;
+  }
+  /* line 2572, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input:focus {
+    outline: 2px solid #aaccaa;
+  }
+  /* line 2574, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input:focus::placeholder {
+    color: #e6e6e6;
+  }
+  /* line 2579, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea {
+    margin-top: 30px;
+  }
+  /* line 2581, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea::placeholder {
+    font-size: 2.5rem;
+  }
+  /* line 2584, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea:focus {
+    box-shadow: 0 0 8px #aaccaa;
+    border-color: #aaccaa;
+    outline: #aaccaa;
+  }
+  /* line 2588, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea:focus::placeholder {
+    color: #e6e6e6;
+  }
+  /* line 2593, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns {
+    float: right;
+    margin-top: 20px;
+  }
+  /* line 2596, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 2603, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button:last-of-type {
+    margin-left: 20px;
+  }
+  /* line 2606, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 2616, C:/Users/User/restaurant/src/scss/app.scss */
+  footer {
+    background: #969696;
+    color: #e2e2e2;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  /* line 2624, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 2627, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name {
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  /* line 2632, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name a {
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    color: #e2e2e2;
+    transition: .2s color;
+  }
+  /* line 2637, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name a:hover {
+    cursor: pointer;
+    color: #AACCAA;
+    text-decoration: none;
+  }
+  /* line 2644, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons {
+    display: flex;
+    text-align: center;
+  }
+  /* line 2647, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a {
+    flex: 1;
+  }
+  /* line 2649, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a i {
+    color: white;
+    background: #ddd;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 8.5%;
+    transition: .2s background;
+  }
+  /* line 2656, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a i:hover {
+    background: #535151;
+  }
+  /* line 2665, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top {
+    position: fixed;
+    right: 5%;
+    top: 95%;
+    opacity: 0;
+  }
+  /* line 2670, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top span {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 700;
+    border: 2px solid #535151;
+    color: #535151;
+    border-radius: 50%;
+    background: #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: all .3s;
+  }
+  /* line 2685, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top span:hover {
+    cursor: pointer;
+    color: #aaccaa;
+    border: 2px solid #aaccaa;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 2699, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top {
+    background: #f1f0f1;
+    padding-top: 28px;
+    border-bottom: none;
+  }
+  /* line 2705, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-header .navbar-brand {
+    font-size: 6rem;
+    background: #535151;
+    color: #fff;
+  }
+  /* line 2709, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-header .navbar-brand span {
+    font-size: 24px;
+  }
+  /* line 2715, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li {
+    text-align: center;
+  }
+  /* line 2717, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li a {
+    font-size: 20px;
+    color: #535151;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: color .2s;
+  }
+  /* line 2723, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right li a:hover {
+    color: #aaccaa;
+    text-decoration: none;
+  }
+  /* line 2730, C:/Users/User/restaurant/src/scss/app.scss */
+  .navbar-fixed-top .container .navbar-right .active a {
+    color: #aaccaa;
+    background: transparent;
+  }
+  /* line 2741, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary {
+    margin-top: 100px;
+    color: white;
+  }
+  /* line 2746, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /* line 2752, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:first-child .primary-wrapper {
+    background: #aad4b3;
+  }
+  /* line 2757, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:nth-child(2) .primary-wrapper {
+    background: #86cdd7;
+  }
+  /* line 2762, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12:last-child .primary-wrapper {
+    background: #ffe5b9;
+  }
+  /* line 2766, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 2769, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-img {
+    flex: 1;
+  }
+  /* line 2771, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-img img {
+    height: 100%;
+  }
+  /* line 2775, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  /* line 2779, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-icon {
+    flex: 1;
+    margin: auto;
+    position: relative;
+  }
+  /* line 2783, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-icon i {
+    font-size: 6rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 2791, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-description {
+    flex: 1;
+    margin: auto;
+    font-size: 3rem;
+  }
+  /* line 2796, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-more {
+    margin: auto;
+    flex: 1;
+  }
+  /* line 2799, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-more a {
+    font-size: 2rem;
+    position: relative;
+    color: white;
+    border-bottom: none;
+    text-decoration: none;
+    transition: .5s border-bottom;
+  }
+  /* line 2806, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-more a:hover {
+    border-bottom: 2px solid white;
+  }
+  /* line 2809, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-primary .container .row .col-xs-12 .primary-wrapper .home-primary-info .home-primary-info-more a:before {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: -50%;
+    width: 200%;
+    height: 3px;
+    background: white;
+  }
+  /* line 2827, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary {
+    text-align: center;
+    color: #939393;
+  }
+  /* line 2832, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 2835, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-num {
+    padding: 7%;
+    display: inline-block;
+    border: 1px solid #939393;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  /* line 2843, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-description {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 2851, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 2858, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-secondary .container .row .col-xs-12 .secondary-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 2870, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container {
+    background: #f1f0f1;
+    color: #969696;
+  }
+  /* line 2874, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 {
+    padding: 40px;
+  }
+  /* line 2876, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 2882, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-text {
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 2886, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more {
+    margin-top: 20px;
+  }
+  /* line 2888, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 2895, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-tertiary .container .row .col-xs-12 .tertiary-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 2906, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth {
+    margin-top: 50px;
+  }
+  /* line 2909, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .fourth-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 2916, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 {
+    margin-bottom: 40px;
+  }
+  /* line 2919, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper {
+    position: relative;
+  }
+  /* line 2922, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: transparent;
+    transition: .2s all;
+  }
+  /* line 2931, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer i {
+    margin: auto;
+    color: #FFF;
+    font-size: 4rem;
+    opacity: 0;
+    transition: .2s opacity;
+  }
+  /* line 2938, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer:hover {
+    background: rgba(170, 204, 170, 0.6);
+    cursor: pointer;
+  }
+  /* line 2941, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-img .fourth-img-wrapper .fourth-img-layer:hover i {
+    opacity: 1;
+  }
+  /* line 2948, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button {
+    float: right;
+  }
+  /* line 2950, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button button {
+    margin-top: 10px;
+    color: white;
+    background: black;
+    font-size: 4rem;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    transition: background .2s;
+  }
+  /* line 2960, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fourth .container .row .col-xs-12 .fourth-button button:hover {
+    cursor: pointer;
+    background: #AACCAA;
+  }
+  /* line 2971, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth {
+    margin-top: 30px;
+  }
+  /* line 2975, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 {
+    margin-bottom: 30px;
+  }
+  /* line 2977, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 2983, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper {
+    overflow: hidden;
+  }
+  /* line 2985, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-img-wrapper {
+    display: block;
+    float: left;
+    width: 40%;
+  }
+  /* line 2991, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation {
+    display: inline-block;
+    width: 58%;
+    margin-left: 5px;
+    overflow: hidden;
+  }
+  /* line 2996, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation .fifth-quotation-name {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 5px;
+  }
+  /* line 3002, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .fifth-wrapper .fifth-quotation .fifth-quotation-text {
+    font-size: 2rem;
+  }
+  /* line 3007, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials {
+    margin-top: 10px;
+  }
+  /* line 3009, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a {
+    float: right;
+    color: #535151;
+    font-size: 2rem;
+    transition: .2s color;
+  }
+  /* line 3014, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a:hover {
+    cursor: pointer;
+    color: #AACCAA;
+  }
+  /* line 3018, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row .col-xs-12 .more-testimonials a span {
+    font-weight: 800;
+    font-size: 2.3rem;
+  }
+  /* line 3026, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 3031, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  /* line 3034, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events .fifth-date {
+    display: block;
+    background-color: #000;
+    text-align: center;
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+    color: #fff;
+    position: relative;
+    top: 3px;
+    padding: 15px 0 19px;
+    font: bold 24px/30px 'Economica', sans-serif;
+  }
+  /* line 3049, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #whatsnew .fifth-events .fifth-details {
+    overflow: hidden;
+    font-size: 2rem;
+  }
+  /* line 3057, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .fifth-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 3062, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper {
+    text-align: center;
+  }
+  /* line 3064, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper .timing-details {
+    background: #535151;
+    color: #FFF;
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+  /* line 3069, C:/Users/User/restaurant/src/scss/app.scss */
+  #home #home-fifth .container .row #openinghours .timing-wrapper .timing-details span {
+    font-size: 3rem;
+  }
+  /* line 3082, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper {
+    margin-top: 100px;
+  }
+  /* line 3085, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper {
+    margin-bottom: 20px;
+  }
+  /* line 3087, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper {
+    background: #f1f0f1;
+  }
+  /* line 3089, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img {
+    position: relative;
+  }
+  /* line 3091, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    transition: all .2s;
+  }
+  /* line 3099, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: #FFF;
+    opacity: 0;
+  }
+  /* line 3108, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer:hover {
+    background: rgba(170, 204, 170, 0.5);
+    cursor: pointer;
+  }
+  /* line 3111, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-img .dish-img-layer:hover i {
+    opacity: 1;
+  }
+  /* line 3118, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description {
+    padding: 3%;
+  }
+  /* line 3120, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description .dish-name {
+    font-size: 3rem;
+    color: #535151;
+  }
+  /* line 3124, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description .dish-text {
+    letter-spacing: .1rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  /* line 3129, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description button {
+    background: none;
+    padding: 3.5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 3136, C:/Users/User/restaurant/src/scss/app.scss */
+  #menu #menu-wrapper .row .dish-wrapper .dish-inner-wrapper .dish-description button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 3148, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation {
+    color: #535151;
+    margin-top: 100px;
+  }
+  /* line 3154, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .reservation-title {
+    font-size: 4rem;
+  }
+  /* line 3157, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text img {
+    display: block;
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+  /* line 3164, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text p {
+    letter-spacing: .1rem;
+  }
+  /* line 3167, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text h3 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  /* line 3172, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .read-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 3179, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-text .read-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 3187, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  /* line 3190, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form .reservation-title {
+    font-size: 4rem;
+  }
+  /* line 3193, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form .reservation-subtitle {
+    font-size: 2rem;
+  }
+  /* line 3196, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form {
+    margin-top: 40px;
+  }
+  /* line 3200, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group input:focus {
+    border: 1px solid #aad4b3;
+    box-shadow: none;
+  }
+  /* line 3208, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group .form-checkinout {
+    margin-right: 20px;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 3213, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form .form-group .datepicker {
+    display: inline-block;
+  }
+  /* line 3217, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form :nth-child(3) {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  /* line 3221, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form :nth-child(4) {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  /* line 3226, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter {
+    display: block;
+    width: 100%;
+  }
+  /* line 3229, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter label {
+    padding-right: 15px;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  /* line 3234, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form #num-of-pp .pp-counter select {
+    width: 120px;
+  }
+  /* line 3239, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea {
+    width: 100%;
+  }
+  /* line 3241, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea::placeholder {
+    padding-left: 10px;
+  }
+  /* line 3244, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form textarea:focus {
+    outline: 1px solid #aad4b3;
+  }
+  /* line 3249, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button {
+    float: right;
+    width: 80px;
+    font-size: 1.8rem;
+    transition: all .2s;
+  }
+  /* line 3254, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button:first-of-type {
+    margin-left: 20px;
+  }
+  /* line 3257, C:/Users/User/restaurant/src/scss/app.scss */
+  #reservation .container .row #reservation-form form button:hover {
+    background: #aad4b3;
+  }
+  /* line 3267, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog {
+    color: #939393;
+    margin-top: 100px;
+  }
+  /* line 3274, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #535151;
+  }
+  /* line 3279, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 3285, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-text p {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 3290, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 3293, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row {
+    display: flex;
+    border-top: 1px solid #939393;
+  }
+  /* line 3296, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row:last-of-type {
+    border-bottom: 1px solid #939393;
+  }
+  /* line 3299, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span {
+    flex: 1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  /* line 3303, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span i {
+    font-size: 2rem;
+    padding-right: 3%;
+  }
+  /* line 3307, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span a {
+    font-size: 2rem;
+    color: #939393;
+    transition: .2s color;
+  }
+  /* line 3311, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row span a:hover {
+    color: #aaccaa;
+    text-decoration: none;
+  }
+  /* line 3318, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .blog-icons .icons-row .views span {
+    padding-right: 2%;
+  }
+  /* line 3325, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more {
+    margin-bottom: 50px;
+  }
+  /* line 3327, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 3334, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #blogs .blog-single .read-more button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 3344, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  /* line 3347, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories .sidebar-title {
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 3352, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul {
+    margin-left: 20px;
+  }
+  /* line 3354, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li {
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  /* line 3357, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li a {
+    font-size: 2rem;
+    color: #939393;
+    transition: .2s color;
+  }
+  /* line 3361, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #categories ul li a:hover {
+    text-decoration: none;
+    color: #aad4b3;
+  }
+  /* line 3369, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts {
+    margin-bottom: 50px;
+  }
+  /* line 3371, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .sidebar-title {
+    font-size: 4rem;
+    color: #535151;
+    margin-bottom: 20px;
+  }
+  /* line 3376, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  /* line 3379, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-img {
+    flex: 1;
+    padding-right: 5px;
+  }
+  /* line 3382, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 3387, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right {
+    flex: 1;
+  }
+  /* line 3389, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-date {
+    font-size: 3rem;
+  }
+  /* line 3393, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-title a {
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+    transition: .2s color;
+  }
+  /* line 3398, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-title a:hover {
+    text-decoration: none;
+    color: #aad4b3;
+  }
+  /* line 3404, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text {
+    font-size: 2rem;
+  }
+  /* line 3407, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text span a {
+    color: black;
+    transition: .2s color;
+  }
+  /* line 3410, C:/Users/User/restaurant/src/scss/app.scss */
+  #blog .container .row #sidebar #recent-posts .recent-post .recent-right .recent-text span a:hover {
+    text-decoration: none;
+    color: #939393;
+  }
+  /* line 3426, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper {
+    margin-top: 100px;
+  }
+  /* line 3430, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-map iframe {
+    width: 100%;
+    height: 450px;
+  }
+  /* line 3436, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details {
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+  }
+  /* line 3441, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details .contact-title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  /* line 3445, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-info .contact-details .contact-description {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  /* line 3451, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text {
+    margin-top: 30px;
+  }
+  /* line 3453, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text p {
+    letter-spacing: .1rem;
+  }
+  /* line 3455, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-wrapper .row #contact-text p .contact-bold {
+    font-weight: 700;
+  }
+  /* line 3463, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form {
+    background: #f1f0f1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+  }
+  /* line 3468, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form .form-title {
+    font-size: 3rem;
+    color: #333;
+    font-weight: 700;
+  }
+  /* line 3473, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form {
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+  /* line 3476, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 7px;
+    display: block;
+    width: 100%;
+  }
+  /* line 3484, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input::placeholder {
+    padding-left: 10px;
+  }
+  /* line 3487, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input:focus {
+    outline: 2px solid #aaccaa;
+  }
+  /* line 3489, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form input:focus::placeholder {
+    color: #e6e6e6;
+  }
+  /* line 3494, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea {
+    margin-top: 30px;
+  }
+  /* line 3496, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea::placeholder {
+    font-size: 2rem;
+  }
+  /* line 3499, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea:focus {
+    box-shadow: 0 0 8px #aaccaa;
+    border-color: #aaccaa;
+    outline: #aaccaa;
+  }
+  /* line 3503, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form textarea:focus::placeholder {
+    color: #e6e6e6;
+  }
+  /* line 3508, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns {
+    float: right;
+    margin-top: 20px;
+  }
+  /* line 3511, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button {
+    background: none;
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    border-radius: 12px;
+    color: #939393;
+    transition: .5s background;
+  }
+  /* line 3518, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button:last-of-type {
+    margin-left: 20px;
+  }
+  /* line 3521, C:/Users/User/restaurant/src/scss/app.scss */
+  #contact #contact-form form .form-btns button:hover {
+    background: #aad4b3;
+    color: #FFF;
+  }
+  /* line 3531, C:/Users/User/restaurant/src/scss/app.scss */
+  footer {
+    background: #969696;
+    color: #e2e2e2;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  /* line 3539, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 3542, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  /* line 3547, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name a {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    color: #e2e2e2;
+    transition: .2s color;
+  }
+  /* line 3552, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-name a:hover {
+    cursor: pointer;
+    color: #AACCAA;
+    text-decoration: none;
+  }
+  /* line 3559, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons {
+    display: flex;
+    text-align: center;
+  }
+  /* line 3562, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a {
+    flex: 1;
+  }
+  /* line 3564, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a i {
+    color: white;
+    background: #ddd;
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 8.5%;
+    transition: .2s background;
+  }
+  /* line 3571, C:/Users/User/restaurant/src/scss/app.scss */
+  footer .container .row #footer-icons a i:hover {
+    background: #535151;
+  }
+  /* line 3580, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top {
+    position: fixed;
+    right: 5%;
+    top: 95%;
+    opacity: 0;
+  }
+  /* line 3585, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top span {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 700;
+    border: 2px solid #535151;
+    color: #535151;
+    border-radius: 50%;
+    background: #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    transition: all .3s;
+  }
+  /* line 3600, C:/Users/User/restaurant/src/scss/app.scss */
+  footer #go-top span:hover {
+    cursor: pointer;
+    color: #aaccaa;
+    border: 2px solid #aaccaa;
+  }
+}
+
+/*# sourceMappingURL=../app.map */
