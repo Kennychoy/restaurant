@@ -13,7 +13,7 @@ class Contact extends Component {
 					<div className="row">
 					
 						<div className="col-md-9 col-xs-12" id="contact-map">
-							<iframe frameBorder="0" style={{border:0}} src="https://www.google.com/maps/embed/v1/place?key=AIzaSyArn0-WSvjJHMR2zL903wk3HLGlbnx01XA&q=Greenland+Denmark+center" allowFullScreen></iframe>
+							<iframe frameBorder="0" style={{border:0}} src="https://www.google.com/maps/embed/v1/place?key={API_KEY}&q=Greenland+Denmark+center" allowFullScreen></iframe>
 						</div>
 						
 						<div className="col-md-3 col-xs-12" id="contact-info">
